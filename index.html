@@ -1,129 +1,51 @@
-
-<!DOCTYPE html>
-<html>
-<head>
-<title>Danielle Morin's Resume</title>
-
-<meta name="viewport" content="width=device-width"/>
-<meta name="description" content="The Curriculum Vitae of Danielle Morin."/>
-<meta charset="UTF-8">
-
-<link type="text/css" rel="stylesheet" href="style.css">
-<link href='https://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
-
-<!--[if lt IE 9]>
-<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-</head>
-<body id="top">
-<div id="cv" class="instaFade">
-	<div class="mainDetails">
-		<div id="headshot" class="quickFade">
-			<img src="danielle_image.jpg" alt="Danielle Morin" />
-		</div>
-
-		<div id="name">
-			<h1 class="quickFade delayTwo">Danielle Morin</h1>
-			<h2 class="quickFade delayThree">Quick Info</h2>
-		</div>
-
-		<div id="contactDetails" class="quickFade delayFour">
-			<ul>
-				<li>e: <a href="mailto:d.morin93@gmail.com" target="_blank">d.morin93@gmail.com</a></li>
-				<li>w: <a href="http://cdm.depaul.edu">cdm.depaul.edu</a></li>
-				<li>t: NONE</li>
-			</ul>
-		</div>
-		<div class="clear"></div>
-	</div>
-
-	<div id="mainArea" class="quickFade delayFive">
-		<section>
-			<article>
-				<div class="sectionTitle">
-					<h1>Personal Profile</h1>
-				</div>
-
-				<div class="sectionContent">
-					<p>Check out my LinkedIn Page to find out more about me.
-					</p>
-					<p>Link is: <a 
-href="www.linkedin.com/in/danielle-morin-8951b013a">www.linkedin.com/in/danielle-morin-8951b013a</a></p>
-				</div>
-			</article>
-			<div class="clear"></div>
-		</section>
-
-
-		<section>
-			<div class="sectionTitle">
-				<h1>Work Experience</h1>
-			</div>
-
-			<div class="sectionContent">
-				<article>
-					<h2>Intern - Exelon Utilites</h2>
-					<p class="subDetails">June 2018 - August 2018</p>
-					<p>Functional Area Baseline Deep Dive Prep & Analysis: Developed materials utilized in Baseline Deep Dives. Identified similarities and oddities within each Functional Areas Baseline Deep Dive data and metrics documentation.</p>
-				</article>
-
-				<article>
-					<h2>Book Seller - Barnes and Noble </h2>
-					<p class="subDetails">December 2017 - June 2018</p>
-					<p>Customer Service</p>
-				</article>
-
-				<article>
-					<h2>Intern - ComEd Utlities</h2>
-					<p class="subDetails">June 2017 - August 2017</p>
-					<p>Part of team that streamlined the monthly KPI submittal process for contractors, using a 3rd party data collection site. Once the data was collected, exporting into Power BI to be able to work with the visualization of the data.</p>
-				</article>
-			</div>
-			<div class="clear"></div>
-		</section>
-
-
-		<section>
-			<div class="sectionTitle">
-				<h1>Key Skills</h1>
-			</div>
-
-			<div class="sectionContent">
-				<ul class="keySkills">
-					<li>HTML5</li>
-					<li>CSS</li>
-					<li>Content Managment Systems</li>
-					<li>Leadership</li>
-					<li>SharePoint</li>
+<!doctype html>
+<html lang="en" data-framework="javascript">
+	<head>
+		<meta charset="utf-8">
+		<title>VanillaJS • TodoMVC</title>
+		<link rel="stylesheet" href="node_modules/todomvc-common/base.css">
+		<link rel="stylesheet" href="node_modules/todomvc-app-css/index.css">
+	</head>
+	<body>
+		<section class="todoapp">
+			<header class="header">
+				<h1>todos</h1>
+				<input class="new-todo" placeholder="What needs to be done?" autofocus>
+			</header>
+			<section class="main">
+				<input id="toggle-all" class="toggle-all" type="checkbox">
+				<label for="toggle-all">Mark all as complete</label>
+				<ul class="todo-list"></ul>
+			</section>
+			<footer class="footer">
+				<span class="todo-count"></span>
+				<ul class="filters">
+					<li>
+						<a href="#/" class="selected">All</a>
+					</li>
+					<li>
+						<a href="#/active">Active</a>
+					</li>
+					<li>
+						<a href="#/completed">Completed</a>
+					</li>
 				</ul>
-			</div>
-			<div class="clear"></div>
+				<button class="clear-completed">Clear completed</button>
+			</footer>
 		</section>
-
-
-		<section>
-			<div class="sectionTitle">
-				<h1>Education</h1>
-			</div>
-
-			<div class="sectionContent">
-				<article>
-					<h2>DePaul University</h2>
-					<p class="subDetails">BS - Information Technology| Web Developemt</p>
-					<p>Chicaogo, IL; 2019</p>
-				</article>
-
-				<article>
-					<h2>Joliet Junior College</h2>
-					<p class="subDetails">Associates in Sceince, Web Developemnt</p>
-					<p>Joliet, 2016</p>
-				</article>
-			</div>
-			<div class="clear"></div>
-		</section>
-
-	</div>
-</div>
-
-</body>
+		<footer class="info">
+			<p>Double-click to edit a todo</p>
+			<p>Created by <a href="http://twitter.com/oscargodson">Oscar Godson</a></p>
+			<p>Refactored by <a href="https://github.com/cburgmer">Christoph Burgmer</a></p>
+			<p>Part of <a href="http://todomvc.com">TodoMVC</a></p>
+		</footer>
+		<script src="node_modules/todomvc-common/base.js"></script>
+		<script src="js/helpers.js"></script>
+		<script src="js/store.js"></script>
+		<script src="js/model.js"></script>
+		<script src="js/template.js"></script>
+		<script src="js/view.js"></script>
+		<script src="js/controller.js"></script>
+		<script src="js/app.js"></script>
+	</body>
 </html>
