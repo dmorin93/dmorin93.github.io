@@ -11,6 +11,8 @@ JQuery Todo MVC link - https://dmorin93.github.io/jquery/index.html
 
 Gatsby Tutorial
 Part 0 - http://gatsbypart0.surge.sh/
-Part 1 - 
+
+Part 1 - http://gatsbypart1.surge.sh/
+
 Part 2 -
 Part 3 -
