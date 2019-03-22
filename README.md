@@ -15,5 +15,6 @@ Part 0 - http://gatsbypart0.surge.sh/
 
 Part 1 - http://gatsbypart1.surge.sh/
 
-Part 2 -
+Part 2 - http://gatsbypart2.surge.sh/about-css-modules/
+
 Part 3 -
