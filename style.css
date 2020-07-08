@@ -17,6 +17,10 @@ html, body {
 	color: #222;}
 body {
 background-image: url("backgroundPicture.jpg");
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .clear {clear: both;}
