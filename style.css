@@ -12,10 +12,12 @@ display:block;
 }
 
 html, body {
-	background-image: url("backgroundPicture.jpg");
 	font-family: 'Lato', helvetica, arial, sans-serif;
 	font-size: 16px;
 	color: #222;}
+body {
+background-image: url("backgroundPicture.jpg");
+}
 
 .clear {clear: both;}
 
